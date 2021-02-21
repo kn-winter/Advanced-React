@@ -5,6 +5,7 @@
     "titleBar.activeBackground": "#FF2C70",
     "titleBar.inactiveBackground": "#FF2C70CC"
   },
+<<<<<<< HEAD
   "eslint.run": "onSave",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
@@ -14,4 +15,18 @@
     "vue-html": "html"
   },
   "emmet.triggerExpansionOnTab": true,
+=======
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false
+  },
+  "eslint.alwaysShowStatus": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "prettier.disableLanguages": ["javascript", "javascriptreact"]
+>>>>>>> a46fbac55ca82cfae35433c010303784a7b3ac3d
 }
